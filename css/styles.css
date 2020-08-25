@@ -14,19 +14,19 @@
   width: 100%;
   background-color: AliceBlue; }
 
-#navbar-icon {
+.navbar-icon {
   height: 55px;
   width: auto;
   align-self: center; }
 
 .navbar-brand {
   font-size: 2.0rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
   font-weight: 900;
   text-align: left; }
 
 .nav-link {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 1.25rem;
   font-weight: 500; }
 
@@ -47,7 +47,7 @@
 h2 {
   text-align: center;
   font-size: 2.25em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: rgba(70, 70, 70, 0.9); }
 
 h3 {
@@ -55,7 +55,7 @@ h3 {
   font-size: 1.25em; }
 
 p {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 section {
   padding-top: 70px; }
@@ -96,7 +96,7 @@ ul {
   background-color: SlateGray; }
 
 .grid-item:hover {
-  background-color: LightGray; }
+  background-color: CornflowerBlue; }
 
 .grid-item:active {
   background-color: GhostWhite; }

@@ -1,3 +1,12 @@
+$font-title: 'Merriweather Sans', sans-serif;
+$font-header: 'Quicksand', sans-serif;
+$font-normal: 'Open Sans', sans-serif;
+$font-game: 'Press Start 2P', sans-serif;
+$color-navbar: AliceBlue;
+$color-primary1: CornflowerBlue;
+$color-primary2: SlateGray;
+$color-primary3: GhostWhite;
+
 .background-image {
   background-image: url("/img/gameController.jpg");
   background-color: rgba(240, 240, 240, 0.7) !important;
@@ -13,10 +22,10 @@
   margin: 0;
   padding: 0.5rem;
   width: 100%;
-  background-color: AliceBlue;
+  background-color: $color-navbar;
 }
 
-#navbar-icon {
+.navbar-icon {
   height: 55px;
   width: auto;
   align-self: center;
@@ -24,13 +33,13 @@
 
 .navbar-brand {
   font-size: 2.0rem;
-  font-family: 'Merriweather Sans', sans-serif;
+  font-family: $font-title;
   font-weight: 900;
   text-align: left;
 }
 
 .nav-link {
-  font-family: 'Quicksand', sans-serif;
+  font-family: $font-normal;
   font-size: 1.25rem;
   font-weight: 500;
 }
@@ -60,7 +69,7 @@
 h2 {
   text-align: center;
   font-size: 2.25em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: $font-header;
   color: rgba(70,70,70,0.9);
 }
 
@@ -70,7 +79,7 @@ h3 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-normal;
 }
 
 section {
@@ -91,7 +100,7 @@ ul {
 }
 
 .gradient-text {
-  background-image: linear-gradient(15deg, CornflowerBlue, SlateGray);
+  background-image: linear-gradient(15deg, $color-primary1, $color-primary2);
   background-size: 100%;
   background-repeat: repeat;
 
@@ -115,15 +124,15 @@ ul {
 
 .grid-item {
   padding: 10px;
-  border: 1px solid CornflowerBlue;
+  border: 1px solid $color-primary1;
   border-radius: 0.5rem;
-  background-color: SlateGray;
+  background-color: $color-primary2;
 }
 
 .grid-item:hover {
-  background-color: LightGray;
+  background-color: $color-primary1;
 }
 
 .grid-item:active {
-  background-color: GhostWhite;
+  background-color: $color-primary3;
 }
