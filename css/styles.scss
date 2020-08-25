@@ -66,14 +66,7 @@ html {
   font-weight: 500;
 }
 
-footer {
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  padding: 0.5rem;
-  width: 100%;
-  background-color: $color-navbar;
-}
+
 
 @media screen and (max-width: 1200px) {
   .navbar-brand {
@@ -98,7 +91,6 @@ footer {
     font-size: 1.3rem;
   }
 }
-
 
 h2 {
   text-align: center;
@@ -131,6 +123,7 @@ a {
 
 a:hover {
   color: $color-link-hover;
+  text-decoration: none;
 }
 
 ul {
@@ -189,4 +182,21 @@ ul {
 
 .grid-item:active {
   background-color: $color-primary5;
+}
+
+footer {
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+  justify-content: center;
+  background-color: $color-navbar;
+}
+
+.social {
+  font-size: 2.5rem;
+  text-align: center;
+  text-justify: center;
+  padding: 1.5rem;
 }
