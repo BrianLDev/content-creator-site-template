@@ -1,5 +1,4 @@
-body {
-  font-family: 'Quicksand', sans-serif;
+.background-image {
   background-image: url("/img/gameController.jpg");
   background-color: rgba(240, 240, 240, 0.7) !important;
   background-blend-mode: color;
@@ -14,48 +13,49 @@ body {
   margin: 0;
   padding: 0.5rem;
   width: 100%;
-  align-content: center;
   background-color: AliceBlue;
 }
 
-#navbar-brand-icon {
+#navbar-icon {
   height: 55px;
   width: auto;
   align-self: center;
 }
 
 .navbar-brand {
-  font-size: 2rem;
-}
-
-#main {
-  margin: 20px;
-}
-
-.header-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-h1 {
-  font-size: 3em;
-  font-family: 'Quicksand', 'Merriweather Sans', sans-serif;
+  font-size: 2.0rem;
+  font-family: 'Merriweather Sans', sans-serif;
   font-weight: 900;
+  text-align: left;
 }
 
-@media screen and (max-width: 1000px) {
-  h1 {
-    font-size: 1.75em;
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-brand {
+    font-size: 1.75rem;
   }
 }
 
-@media screen and (max-width: 750px) {
-  h1 {
-    font-size: 1.5em;
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+}
+
 
 h2 {
   text-align: center;
@@ -101,16 +101,13 @@ ul {
   -moz-text-fill-color: transparent;
 }
 
-.nav-link {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 1.25em;
-}
+
 
 .center {
   text-align: center;
 }
 
-.container {
+.container-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
