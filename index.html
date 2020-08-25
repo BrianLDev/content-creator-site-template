@@ -1,24 +1,132 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand&family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Custom CSS-->
     <link href="css/styles.css" rel="stylesheet">
-    <title>Hello, world!</title>
-  </head>
+    
+    <title>Content Creator Template</title>
+</head>
 
-  <body>
-    <h1>Hello, world!!!</h1>
+<body>
+
+    <!-- Navigation-->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid justify-content-between">
+            <!-- Brand-->
+            <div>
+                <a href="#"><img id="navbar-brand-icon" src="img/iconController.png" alt="Controller Logo"></a>
+                <h1 class="navbar-brand gradient-text">  Content Creator Template</h1>  
+            </div>
+            <!-- Nav Links-->
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button> 
+                <div id="navbarCollapsable" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#games">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#signup">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main-->
+    <main id="main">
+
+        <!-- Other thing-->
+        <section id="intro" class="center">
+            <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <h1>Hello world!!!</h1>
+        <button id="#testBtn" class="btn btn-success">Test</button>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <h3>Beginner</h3>
+            <div id="beginner" class="container">
+                <div class="grid-item">Course 1</div>
+                <div class="grid-item">Course 2</div>
+                <div class="grid-item">Course 3</div>
+                <div class="grid-item">Course 4</div>
+                <div class="grid-item">Course 5</div>
+            </div>
+            <h3>Intermediate</h3>
+            <div id="intermediate" class="container">
+                <div class="grid-item">Course 1</div>
+                <div class="grid-item">Course 2</div>
+                <div class="grid-item">Course 3</div>
+                <div class="grid-item">Course 4</div>
+            </div>
+            <h3>Advanced</h3>
+            <div id="advanced" class="container">
+                <div class="grid-item">Course 1</div>
+                <div class="grid-item">Course 2</div>
+                <div class="grid-item">Course 3</div>
+            </div>
+        </section>
+        <section id="games">
+            <h2>Games</h2>
+            <h3>Strategy</h3>
+            <div id="beginner" class="container">
+                <div class="grid-item">Game 1</div>
+                <div class="grid-item">Game 2</div>
+                <div class="grid-item">Game 3</div>
+            </div>
+            <h3>Simulation</h3>
+            <div id="beginner" class="container">
+                <div class="grid-item">Game 1</div>
+                <div class="grid-item">Game 2</div>
+                <div class="grid-item">Game 3</div>
+            </div>
+            <h3>Story-Driven</h3>
+            <div id="beginner" class="container">
+                <div class="grid-item">Game 1</div>
+                <div class="grid-item">Game 2</div>
+                <div class="grid-item">Game 3</div>
+            </div>
+        </section>
+        <section id="signup">
+            <h2>Sign Up</h2>
+            <div class="center">
+                <p>Enter your email to receive free content and updates whenever new courses, tutorials or games are released!</p>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" placeholder="willwright@thesims.com">
+                <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
+            <br>
+        </section>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
+    <script src="js/scripts.js"></script>
+</body>
+
 </html>

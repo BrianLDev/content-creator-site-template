@@ -1,0 +1,134 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image: url("/img/gameController.jpg");
+  background-color: rgba(240, 240, 240, 0.7) !important;
+  background-blend-mode: color;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0.5rem;
+  width: 100%;
+  align-content: center;
+  background-color: AliceBlue;
+}
+
+#navbar-brand-icon {
+  height: 55px;
+  width: auto;
+  align-self: center;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+#main {
+  margin: 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+h1 {
+  font-size: 3em;
+  font-family: 'Quicksand', 'Merriweather Sans', sans-serif;
+  font-weight: 900;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 1.75em;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.25em;
+  font-family: 'Quicksand', sans-serif;
+  color: rgba(70,70,70,0.9);
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+section {
+  padding-top: 70px;
+}
+
+a {
+  color: rgba(50,50,50,0.8);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(10,10,10,1);
+}
+
+ul {
+  list-style: none;
+}
+
+.gradient-text {
+  background-image: linear-gradient(15deg, CornflowerBlue, SlateGray);
+  background-size: 100%;
+  background-repeat: repeat;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.25em;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.grid-item {
+  padding: 10px;
+  border: 1px solid CornflowerBlue;
+  border-radius: 0.5rem;
+  background-color: SlateGray;
+}
+
+.grid-item:hover {
+  background-color: LightGray;
+}
+
+.grid-item:active {
+  background-color: GhostWhite;
+}
