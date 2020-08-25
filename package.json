@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server",
-    "start": "npm run lite"
+    "scss": "node-sass -o css/ css/",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
+    "start": "npm run watch:all"
   },
   "repository": {
     "type": "git",
@@ -21,7 +24,13 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jQuery": "^1.7.4",
-    "lite-server": "^2.5.4",
-    "popper": "^1.0.1"
+    "jquery": "^3.5.1",
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "onchange": "^7.0.2",
+    "parallelshell": "^3.0.1",
+    "popper.js": "^1.16.1"
   }
 }

@@ -4,7 +4,8 @@
   background-blend-mode: color;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .navbar {
   top: 0;
@@ -12,91 +13,119 @@
   margin: 0;
   padding: 0.5rem;
   width: 100%;
-  background-color: AliceBlue; }
+  background-color: AliceBlue;
+}
 
 #navbar-icon {
   height: 55px;
   width: auto;
-  align-self: center; }
+  align-self: center;
+}
 
 .navbar-brand {
   font-size: 2.0rem;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 900;
-  text-align: left; }
+  text-align: left;
+}
 
 .nav-link {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.25rem;
-  font-weight: 500; }
+  font-weight: 500;
+}
 
 @media screen and (max-width: 1200px) {
   .navbar-brand {
-    font-size: 1.75rem; } }
+    font-size: 1.75rem;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .navbar-brand {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+  }
   .nav-link {
-    font-size: 1rem; } }
+    font-size: 1rem;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem;
+  }
+}
+
 
 h2 {
   text-align: center;
   font-size: 2.25em;
   font-family: 'Quicksand', sans-serif;
-  color: rgba(70, 70, 70, 0.9); }
+  color: rgba(70,70,70,0.9);
+}
 
 h3 {
   text-align: center;
-  font-size: 1.25em; }
+  font-size: 1.25em;
+}
 
 p {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+}
 
 section {
-  padding-top: 70px; }
+  padding-top: 70px;
+}
 
 a {
-  color: rgba(50, 50, 50, 0.8);
-  text-decoration: none; }
+  color: rgba(50,50,50,0.8);
+  text-decoration: none;
+}
 
 a:hover {
-  color: #0a0a0a; }
+  color: rgba(10,10,10,1);
+}
 
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 .gradient-text {
   background-image: linear-gradient(15deg, CornflowerBlue, SlateGray);
   background-size: 100%;
   background-repeat: repeat;
+
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; 
   -moz-background-clip: text;
-  -moz-text-fill-color: transparent; }
+  -moz-text-fill-color: transparent;
+}
+
+
 
 .center {
-  text-align: center; }
+  text-align: center;
+}
 
 .container-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  padding: 10px; }
+  padding: 10px;
+}
 
 .grid-item {
   padding: 10px;
   border: 1px solid CornflowerBlue;
   border-radius: 0.5rem;
-  background-color: SlateGray; }
+  background-color: SlateGray;
+}
 
 .grid-item:hover {
-  background-color: LightGray; }
+  background-color: LightGray;
+}
 
 .grid-item:active {
-  background-color: GhostWhite; }
+  background-color: GhostWhite;
+}
