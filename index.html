@@ -22,11 +22,11 @@
 <body>
 
     <!-- Navigation-->
-    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top px-lg-5">
         <div class="container-fluid">
             <div>
-                <a href="#"><img class="navbar-icon js-scroll-trigger" src="img/iconController.png"></a>
-                <h1 class="navbar-brand gradient-text js-scroll-trigger">Content Creator Template</h1>
+                <a href="#"><i class="fas fa-fire navbar-icon-font mx-2"></i></a>
+                <a href="#" class="navbar-brand gradient-text ml-3">Content Creator</a>
             </div>
             <div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapsable" aria-controls="navbarCollapsable" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,10 +34,10 @@
                 </button> 
                 <div class="collapse navbar-collapse" id="navbarCollapsable">
                     <ul class="navbar-nav navbar-right">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">Courses</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#store">Store</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio"><i class="fas fa-photo-video"></i> Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#courses"><i class="fab fa-leanpub"></i> Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#store"><i class="fas fa-shopping-cart"></i> Store</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-portrait"></i> Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,23 +46,51 @@
 
     <!-- Main-->
     <main id="main">
-
-        <!-- Test-->
-        <section id="intro" class="center">
-            <iframe id="video" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <h1>Hello world!!!</h1>
-        <button id="#testBtn" class="btn btn-success">Test</button>
-
-        <section id="about">
-            <h2>About</h2>
-        </section>
-
+        <!-- Portfolio-->
         <section id="portfolio">
-            <h2>Portfolio</h2>
+            <div id="projects" class="container-fluid">
+                <h2>Portfolio</h2>
+                <div class="row justify-content-center">
+                    <div class="col-sm-9 card border-0 project-card">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                            <img class="card-img-top" src="/img/restaurant-view.jpg" alt="Restaurant with a View">
+                        </a>
+                        <div class="card-body">
+                            <h2 class="card-title">Project 1</h2>
+                            <p class="card-text">Some info about project 1</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 card border-0 project-card">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                            <img class="card-img-top" src="/img/minh-pham-IisDPFNUS4k-unsplash.jpg" alt="Code and Coffee">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">Some info about project 2</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 card border-0 project-card">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                            <img class="card-img-top" src="/img/doggo groomers.jpg" alt="Doggo Groomers">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 3</h3>
+                            <p class="card-text">Some info about project 3</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 card border-0 project-card">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                            <img class="card-img-top" src="/img/stonks-go-up.jpg" alt="Stonks Only Go Up">
+                        </a>
+                        <div class="card-body">
+                            <h3 class="card-title">Project 4</h3>
+                            <p class="card-text">Some info about project 4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-
+        <!-- Courses-->
         <section id="courses">
             <h2>Courses</h2>
             <h3>Beginner</h3>
@@ -107,6 +135,16 @@
                 <div class="grid-item">Item 2</div>
                 <div class="grid-item">Item 3</div>
             </div>
+        </section>
+
+        <!-- Test-->
+        <section>
+            <h1>Hello world!!!</h1>
+            <button id="#testBtn" class="btn btn-success">Test</button>
+        <section>
+        <!-- Contact-->
+        <section id="contact">
+            <h2>Contact</h2>
         </section>
         <section id="signup">
             <h2>Sign Up</h2>

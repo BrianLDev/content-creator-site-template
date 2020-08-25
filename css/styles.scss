@@ -29,10 +29,14 @@ html {
   background-color: $color-navbar;
 }
 
-.navbar-icon {
+.navbar-icon-img {
   height: 55px;
   width: auto;
-  align-self: center;
+}
+
+.navbar-icon-font {
+  font-size: 2.0rem;
+  color: red;
 }
 
 .navbar-brand {
@@ -40,6 +44,7 @@ html {
   font-family: $font-title;
   font-weight: 900;
   text-align: left;
+  align-self: center;
 }
 
 .nav-link {
@@ -86,6 +91,10 @@ p {
   font-family: $font-normal;
 }
 
+main {
+  margin: 2rem;
+}
+
 section {
   padding-top: 80px;
 }
@@ -115,6 +124,17 @@ ul {
 }
 
 .center {
+  text-align: center;
+}
+
+.project-card {
+  padding: 1rem;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem;
+}
+
+.card-text {
   text-align: center;
 }
 

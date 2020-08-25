@@ -17,16 +17,20 @@ html {
   width: 100%;
   background-color: AliceBlue; }
 
-.navbar-icon {
+.navbar-icon-img {
   height: 55px;
-  width: auto;
-  align-self: center; }
+  width: auto; }
+
+.navbar-icon-font {
+  font-size: 2.0rem;
+  color: red; }
 
 .navbar-brand {
   font-size: 2.0rem;
   font-family: "Merriweather Sans", sans-serif;
   font-weight: 900;
-  text-align: left; }
+  text-align: left;
+  align-self: center; }
 
 .nav-link {
   font-family: "Open Sans", sans-serif;
@@ -60,6 +64,9 @@ h3 {
 p {
   font-family: "Open Sans", sans-serif; }
 
+main {
+  margin: 2rem; }
+
 section {
   padding-top: 80px; }
 
@@ -83,6 +90,15 @@ ul {
   -moz-text-fill-color: transparent; }
 
 .center {
+  text-align: center; }
+
+.project-card {
+  padding: 1rem;
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.5rem; }
+
+.card-text {
   text-align: center; }
 
 .container-grid {
