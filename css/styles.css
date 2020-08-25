@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth; }
+
 .background-image {
   background-image: url("/img/gameController.jpg");
   background-color: rgba(240, 240, 240, 0.7) !important;
@@ -58,7 +61,7 @@ p {
   font-family: "Open Sans", sans-serif; }
 
 section {
-  padding-top: 70px; }
+  padding-top: 80px; }
 
 a {
   color: rgba(50, 50, 50, 0.8);

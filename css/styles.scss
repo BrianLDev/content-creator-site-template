@@ -7,6 +7,10 @@ $color-primary1: CornflowerBlue;
 $color-primary2: SlateGray;
 $color-primary3: GhostWhite;
 
+html {
+  scroll-behavior: smooth;
+}
+
 .background-image {
   background-image: url("/img/gameController.jpg");
   background-color: rgba(240, 240, 240, 0.7) !important;
@@ -83,7 +87,7 @@ p {
 }
 
 section {
-  padding-top: 70px;
+  padding-top: 80px;
 }
 
 a {
