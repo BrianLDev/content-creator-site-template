@@ -112,7 +112,8 @@ ul {
   border-radius: 0.5rem; }
 
 .project-card:hover {
-  background-color: #EFEFEF; }
+  background-color: #EFEFEF;
+  text-decoration: none; }
 
 .card-text {
   text-align: center; }
