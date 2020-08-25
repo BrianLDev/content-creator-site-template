@@ -5,8 +5,16 @@ $font-game: 'Press Start 2P', sans-serif;
 $color-navbar: AliceBlue;
 $color-background-middle: White;
 $color-primary1: CornflowerBlue;
-$color-primary2: SlateGray;
-$color-primary3: GhostWhite;
+$color-primary2: AliceBlue;
+$color-primary3: #D23F2F;
+$color-primary4: #F4A460;
+$color-primary5: #0C457D;
+$color-primary6: #EFEFEF;
+$color-primary7: #0B172A;
+$color-link:rgba(50,50,50,0.8);
+$color-link-hover:rgba(10,10,10,1);
+$color-link-active:rgba(10,10,10,1);
+$card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 html {
   scroll-behavior: smooth;
@@ -41,7 +49,7 @@ html {
 
 .navbar-icon-font {
   font-size: 2.0rem;
-  color: red;
+  color: $color-primary3;
 }
 
 .navbar-brand {
@@ -71,11 +79,14 @@ footer {
   .navbar-brand {
     font-size: 1.75rem;
   }
+  .nav-link {
+    font-size: 1.15rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .nav-link {
     font-size: 1rem;
@@ -84,7 +95,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
@@ -114,12 +125,12 @@ section {
 }
 
 a {
-  color: rgba(50,50,50,0.8);
+  color: $color-link;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(10,10,10,1);
+  color: $color-link-hover;
 }
 
 ul {
@@ -127,7 +138,7 @@ ul {
 }
 
 .gradient-text {
-  background-image: linear-gradient(15deg, $color-primary1, $color-primary2);
+  background-image: linear-gradient(120deg, $color-primary3, $color-primary1);
   background-size: 100%;
   background-repeat: repeat;
 
@@ -144,8 +155,12 @@ ul {
 .project-card {
   padding: 1rem;
   margin: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: $card-shadow;
   border-radius: 0.5rem;
+}
+
+.project-card:hover {
+  background-color: $color-primary6;
 }
 
 .card-text {
@@ -172,5 +187,5 @@ ul {
 }
 
 .grid-item:active {
-  background-color: $color-primary3;
+  background-color: $color-primary5;
 }
