@@ -144,6 +144,14 @@ ul {
 .grid-item:active {
   background-color: #AAAAAA; }
 
+.construction {
+  font-size: 5rem;
+  color: #D23F2F; }
+
+.construction-icon {
+  font-size: 4rem;
+  color: #F0AD4E; }
+
 footer {
   bottom: 0;
   left: 0;
