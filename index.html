@@ -96,14 +96,18 @@
 <footer>
     <!-- Email Signup-->
     <section id="signup">
-        <h1>Sign Up</h1>
+        <h1 class="my-0">Sign Up</h1>
         <div class="center mt-4">
-            <p>Enter your email to receive <strong>FREE</strong> swag and get notified whenever new courses, tutorials or products are released!</p>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-            <label for="email">email:</label>
-            <input type="email" id="email" name="email" placeholder="email@address.com">
-            <input type="submit" id="submit" value="Submit">
+            <p>Enter your email to receive <strong>FREE</strong> swag and get notified whenever new courses, tutorials or products are released</p>
+            <form id="form" action="#">
+                <div class="input-group container w-25">
+                    <input id="email" type="email" class="form-control" name="email" placeholder="email@address.com" required>
+                    <div class="input-group-append">
+                        <button id="submit" type="submit" class="btn btn-outline-primary" value="input email">Submit</button>
+                    </div>
+                </div>
             </form>
+            <br>
         </div>
     </section>
     <!-- Contact / Social-->

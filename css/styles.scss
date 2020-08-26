@@ -2,8 +2,6 @@ $font-title: 'Merriweather Sans', sans-serif;
 $font-header: 'Quicksand', sans-serif;
 $font-normal: 'Open Sans', sans-serif;
 $font-game: 'Press Start 2P', sans-serif;
-$color-navbar: AliceBlue;
-$color-background-middle: White;
 $color-primary1: CornflowerBlue;
 $color-primary2: AliceBlue;
 $color-primary3: #D23F2F;
@@ -12,9 +10,11 @@ $color-primary5: #AAAAAA;
 $color-primary6: #EEEEEE;
 $color-primary7: #565656;
 $color-primary8: #75b061;
+$color-navbar: AliceBlue;
+$color-background-middle: White;
+$color-warning: #F0AD4E;
 $color-link:rgba(50,50,50,0.8);
 $color-link-hover:rgba(10,10,10,1);
-$color-link-active:rgba(10,10,10,1);
 $card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 html {
@@ -199,7 +199,7 @@ ul {
 
 .construction-icon {
   font-size: 4rem;
-  color: #F0AD4E;
+  color: $color-warning;
 }
 
 footer {
