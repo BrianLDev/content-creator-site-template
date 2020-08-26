@@ -11,7 +11,7 @@ $color-primary4: #0C457D;
 $color-primary5: #AAAAAA;
 $color-primary6: #FFFFFF;
 $color-primary7: #565656;
-$color-primary8: #76323F;
+$color-primary8: #75b061;
 $color-link:rgba(50,50,50,0.8);
 $color-link-hover:rgba(10,10,10,1);
 $color-link-active:rgba(10,10,10,1);
@@ -81,7 +81,7 @@ h3 {
   font-size: 1.5em;
   font-weight: 700;
   font-family: $font-header;
-  color: $color-primary7;
+  color: $color-primary3;
 }
 
 p {
@@ -141,14 +141,14 @@ ul {
   text-align: center;
   font-size: 2em;
   font-family: $font-header;
-  color: $color-primary5;
+  color: $color-primary4;
 }
 
 .card-title-md {
   text-align: center;
   font-size: 1.8em;
   font-family: $font-header;
-  color: $color-primary5;
+  color: $color-primary4;
 }
 
 .card-text {
