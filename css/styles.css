@@ -62,7 +62,7 @@ main {
   margin: 2rem; }
 
 section {
-  padding-top: 80px; }
+  padding-top: 35px; }
 
 a {
   color: rgba(50, 50, 50, 0.8);
@@ -94,7 +94,7 @@ ul {
   border-radius: 0.5rem; }
 
 .project-card:hover {
-  background-color: #EEEEEE;
+  background-color: #FFFFFF;
   text-decoration: none; }
 
 .card-title {
