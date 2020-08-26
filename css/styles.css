@@ -40,20 +40,28 @@ html {
   font-size: 1.25rem;
   font-weight: 500; }
 
-h2 {
+h1 {
   text-align: center;
   font-size: 2.5em;
   font-weight: 900;
   font-family: "Quicksand", sans-serif;
   color: CornflowerBlue;
-  margin: 0 0 30px 0; }
+  margin: .5rem 0 .5rem 0; }
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: "Quicksand", sans-serif;
+  color: #D23F2F;
+  margin: .5rem 0 .5rem 0; }
 
 h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 700;
   font-family: "Quicksand", sans-serif;
-  color: #D23F2F; }
+  color: #0C457D; }
 
 p {
   font-family: "Open Sans", sans-serif; }
@@ -94,7 +102,7 @@ ul {
   border-radius: 0.5rem; }
 
 .project-card:hover {
-  background-color: #FFFFFF;
+  background-color: #EEEEEE;
   text-decoration: none; }
 
 .card-title {

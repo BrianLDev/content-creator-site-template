@@ -9,7 +9,7 @@ $color-primary2: AliceBlue;
 $color-primary3: #D23F2F;
 $color-primary4: #0C457D;
 $color-primary5: #AAAAAA;
-$color-primary6: #FFFFFF;
+$color-primary6: #EEEEEE;
 $color-primary7: #565656;
 $color-primary8: #75b061;
 $color-link:rgba(50,50,50,0.8);
@@ -67,21 +67,30 @@ html {
   font-weight: 500;
 }
 
-h2 {
+h1 {
   text-align: center;
   font-size: 2.5em;
   font-weight: 900;
   font-family: $font-header;
   color: $color-primary1;
-  margin: 0 0 30px 0;
+  margin: .5rem 0 .5rem 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+  font-family: $font-header;
+  color: $color-primary3;
+  margin: .5rem 0 .5rem 0;
 }
 
 h3 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 700;
   font-family: $font-header;
-  color: $color-primary3;
+  color: $color-primary4;
 }
 
 p {
